@@ -1,7 +1,13 @@
 # **Employee Management System** 📋👨‍💼👩‍💼
 
+
+
 A simple **Employee Management System** built using **Spring Boot** that allows you to perform CRUD operations on employee data. This application supports various features such as adding, deleting, updating, and retrieving employee information.
 
+Postman Link:
+```
+https://www.postman.com/bold-water-626360/workspace/employeedetails/collection/23836321-22a54c18-d652-44aa-9505-8089f68237aa?action=share&creator=23836321
+```
 ---
 
 ## **Features** 🚀
@@ -71,19 +77,21 @@ To test the API using Postman, follow these steps:
 
 ```
 git clone https://github.com/yourusername/employee-management-system.git
-Navigate to the project directory:
 ```
+Navigate to the project directory:
+
 
 ```
 cd employee-management-system
-Run the Spring Boot application:
 ```
+Run the Spring Boot application:
 
 ```
 mvn spring-boot:run
+```
 Download the Postman Collection:
 Import the Postman collection file (if available) or manually create requests in Postman.
-```
+
 
 ## **Test the APIs:**
 
@@ -95,14 +103,16 @@ Clone the repository:
 
 ```
 git clone https://github.com/yourusername/employee-management-system.git
-Navigate to the project directory:
 ```
+Navigate to the project directory:
+
 
 ```
 cd employee-management-system
+```
 Ensure prerequisites:
 Make sure you have Java and MySQL installed on your system.
-```
+
 
 Configure your application.properties file:
 Update the following properties:
