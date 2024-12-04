@@ -34,6 +34,7 @@ A simple **Employee Management System** built using **Spring Boot** that allows 
   "designation": "Software Engineer",
   "dateofjoin": "2024-01-15"
 }
+```json
 ----------------------------------------------------
 ### **2. Delete Employee** 🗑️
 Method: DELETE
