@@ -34,3 +34,85 @@ A simple **Employee Management System** built using **Spring Boot** that allows 
   "designation": "Software Engineer",
   "dateofjoin": "2024-01-15"
 }
+
+### **2. Delete Employee** 🗑️
+Method: DELETE
+Endpoint: /api/v1/employees/{id}
+Path Variable: id (Employee ID)
+### **3. Get Employee by Name** 🔍
+Method: GET
+Endpoint: /api/v1/employees/name/{name}
+Path Variable: name (Employee Name)
+### **4. Get Employee by ID** 🆔
+Method: GET
+Endpoint: /api/v1/employees/{id}
+Path Variable: id (Employee ID)
+### **5. Get Employee with Highest Salary** 💰
+Method: GET
+Endpoint: /api/v1/employees/highest-salary
+### **6. Get All Employees** 📜
+Method: GET
+Endpoint: /api/v1/employees
+How to Use with Postman 📬
+To test the API using Postman, follow these steps:
+
+## **Clone the repository:**
+-----------------------------------------------------------------------------------------------
+git clone https://github.com/yourusername/employee-management-system.git
+Navigate to the project directory:
+--------------------------------------------------------------------------------------------------
+cd employee-management-system
+Run the Spring Boot application:
+------------------------------------------------------------------------------------------------------
+mvn spring-boot:run
+Download the Postman Collection:
+Import the Postman collection file (if available) or manually create requests in Postman.
+----------------------------------------------------------------------------------------------------
+## **Test the APIs:**
+
+Use POST for creating new employees.
+Use GET to fetch employees by ID, name, or the highest salary.
+Use DELETE to remove an employee by ID.
+Setup Instructions ⚙️
+Clone the repository:
+
+
+git clone https://github.com/yourusername/employee-management-system.git
+Navigate to the project directory:
+
+
+cd employee-management-system
+Make sure you have Java and MySQL installed on your system.
+
+Configure your application.properties file:
+
+
+spring.datasource.url=jdbc:mysql://localhost:3306/your_database
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+spring.jpa.hibernate.ddl-auto=update
+Run the application:
+
+
+mvn spring-boot:run
+Access the application at:
+
+http://localhost:8080 for API testing.
+Contributing 🤝
+Contributions are always welcome! Follow these steps to contribute:
+
+## **Fork the repository.**
+Create a feature branch:
+
+git checkout -b feature/your-feature
+Commit your changes:
+
+git commit -am 'Add your-feature'
+Push to the branch:
+
+git push origin feature/your-feature
+Create a Pull Request.
+
+## **Acknowledgments** 🙏
+Thanks to Spring Boot for simplifying backend development.
+Thanks to Postman for testing and managing API requests efficiently.
