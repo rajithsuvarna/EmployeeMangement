@@ -16,10 +16,11 @@ A simple **Employee Management System** built using **Spring Boot** that allows 
 ---
 
 ## **Tech Stack** 🛠️
-
+```
 - **Backend**: Spring Boot  
 - **Database**: MySQL  
-- **API Testing**: Postman  
+- **API Testing**: Postman
+``` 
 
 ---
 
